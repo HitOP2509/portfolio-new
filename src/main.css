@@ -1,11 +1,25 @@
+:root {
+    --black-color: #000;
+    --white-color: #fff;
+    --primary-color: #8f43ee;
+}
+/* CSS RESET */
 *,
 *::after,
 *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
+li {
+    list-style: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+/* ACTUAL CSS*/
 body {
-    background: #000;
     color: #fff;
 }

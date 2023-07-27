@@ -1,0 +1,46 @@
+.navbar {
+    background-color: var(--black-color);
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+}
+.navbar .navContainer {
+    max-width: 1280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .logo {
+    font-size: 2rem;
+    display: flex;
+    gap: 0.25rem;
+}
+.navbar .logo .fName {
+    color: var(--white-color);
+    font-weight: 500;
+}
+.navbar .logo .lName {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+.navbar .navLinks {
+    display: flex;
+    gap: 2rem;
+    font-weight: 700;
+}
+.navbar .navLinks li {
+    transition: 0.25s all ease;
+    border-bottom: 2px solid transparent;
+    padding-block: 6px;
+}
+.navbar .navLinks li a {
+    padding-block: 6px;
+}
+.navbar .navLinks li:hover {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+.navbar .navLinks li a.active {
+    color: var(--primary-color);
+}
