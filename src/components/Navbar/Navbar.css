@@ -1,38 +1,37 @@
 .navbar {
-    background-color: var(--black-color);
+    background-color: var(--dark-color);
     display: flex;
     justify-content: center;
     height: 4rem;
     padding-inline: 2rem;
     position: sticky;
-    top: 0;
+    top: -5px;
     left: 0;
     right: 0;
+    font-family: "Fira Code", sans-serif;
 }
-.navbar .navContainer {
-    max-width: 1280px;
-    width: 100%;
+.navbar .container {
+    /* max-width: 1280px;
+    width: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .navbar .logo {
     font-size: 2rem;
-    display: flex;
-    gap: 0.25rem;
 }
 .navbar .logo .fName {
-    color: var(--white-color);
-    font-weight: 500;
-}
-.navbar .logo .lName {
     color: var(--primary-color);
     font-weight: 700;
+}
+.navbar .logo .lName {
+    color: var(--white-color);
+    font-weight: 500;
 }
 .navbar .navLinks {
     display: flex;
     gap: 2rem;
-    font-weight: 700;
+    font-weight: 500;
     color: white;
 }
 .navbar .navLinks li {
@@ -42,6 +41,16 @@
 }
 .navbar .navLinks li a {
     padding-block: 6px;
+}
+.navbar .navLinks li::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    color: red;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 .navbar .navLinks li:hover {
     color: var(--primary-color);
@@ -57,7 +66,6 @@
 
 @media only screen and (max-width: 720px) {
     .navbar {
-        backdrop-filter: blur(5px);
         position: sticky;
         height: 3.5rem;
         padding-inline: 1rem;
@@ -77,7 +85,7 @@
         transition: 1s all ease;
         display: flex !important;
         flex-direction: column;
-        gap: 2rem;
+        gap: 3rem;
         opacity: 1;
         position: absolute;
         overflow: hidden;
@@ -89,6 +97,10 @@
         color: var(--white-color);
         font-size: 1.5rem;
         animation: mobileMenuIn 0.3s ease forwards;
+    }
+    .navbar .mobileLinks li a {
+        border-bottom: 4px solid var(--primary-color);
+        padding-bottom: 0.5rem;
     }
     .mobile-nav-icon svg {
         color: var(--white-color);

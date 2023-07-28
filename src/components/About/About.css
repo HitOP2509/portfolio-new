@@ -1,0 +1,30 @@
+.about {
+    background-color: var(--dark-color);
+    font-family: "Fira Code", sans-serif;
+}
+.about .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.about .container .about-title {
+    align-self: start;
+}
+.about .container .about-title .text {
+    color: var(--white-color);
+    font-size: 3rem;
+}
+.about .container .about-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.about .container .about-image img {
+    max-width: 500px;
+    width: 100%;
+}

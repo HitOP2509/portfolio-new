@@ -1,6 +1,7 @@
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./Navbar.css";
 
+import { ReactComponent as Logo } from "../../assets/logo.svg";
 import { ReactComponent as MenuIcon } from "../../assets/menu-icon.svg";
 import { ReactComponent as CloseMenuIcon } from "../../assets/close-menu.svg";
 import { useCallback, useEffect, useState } from "react";
@@ -19,28 +20,29 @@ const Navbar = () => {
         setShowMenuIcon(true);
     }, [pathname]);
     return (
-        <nav className="navbar">
-            <div className="navContainer">
+        <header className="navbar">
+            <nav className="container">
                 <Link to="/" className="logo">
-                    <span className="fName">ROHIT</span>
-                    <span className="lName">SINGH</span>
+                    {/* <span className="fName">R</span>
+                    <span className="lName">ohit</span> */}
+                    <Logo />
                 </Link>
                 <ul className={`${showMenuIcon ? "navLinks" : "mobileLinks"}`}>
                     <li>
-                        <NavLink to="/">Home</NavLink>
+                        <Link to="/">{"// Home"}</Link>
                     </li>
                     <li>
-                        <NavLink to="/about">About</NavLink>
+                        <Link to="/#about">{"// About"}</Link>
                     </li>
                     <li>
-                        <NavLink to="/projects">Projects</NavLink>
+                        <Link to="/#projects">{"// Projects"}</Link>
                     </li>
                 </ul>
                 <div className={["mobile-nav-icon"]} onClick={handleToggleMenu}>
                     {showMenuIcon ? <MenuIcon /> : <CloseMenuIcon />}
                 </div>
-            </div>
-        </nav>
+            </nav>
+        </header>
     );
 };
 

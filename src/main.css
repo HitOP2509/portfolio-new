@@ -2,7 +2,9 @@
     --black-color: #000;
     --transparent-black: rgba(0, 0, 0, 0.75);
     --white-color: #fff;
-    --primary-color: #8f43ee;
+    --primary-color: #91b0e3;
+    --dark-color: #1a1a1b;
+    --dark-transparent-color: rgba(26, 26, 27);
 }
 /* CSS RESET */
 *,
@@ -12,6 +14,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
 }
 li {
     list-style: none;
@@ -43,4 +46,9 @@ body {
 .show {
     display: block;
     opacity: 1;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin-inline: auto;
 }
