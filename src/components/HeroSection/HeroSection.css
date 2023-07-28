@@ -1,10 +1,18 @@
 .master-section {
-    background-color: var(--dark-color);
+    /* background-color: var(--dark-color);
+     */
+    background: linear-gradient(
+        173deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(15, 15, 22, 1) 16%,
+        rgba(38, 43, 51, 1) 100%
+    );
     max-height: max-content;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: var(--font-secondary);
 }
 
 .master-section .container {
@@ -34,14 +42,15 @@
 }
 .master-section .container .master-items .texts h1 {
     width: 100%;
-    font-size: 3.75rem;
+    font-size: 3rem;
+    word-spacing: -1rem;
 }
 .master-section .container .master-items .texts .name {
     color: var(--primary-color);
 }
 .master-section .container .master-items .texts p {
-    font-size: 1rem;
-    line-height: 2rem;
+    font-size: 1.25rem;
+    line-height: 2.2rem;
 }
 .master-section .container .master-items .buttons {
     display: flex;
@@ -111,10 +120,12 @@
     }
     .master-section .container .master-items .texts h1 {
         font-size: 2rem;
+        word-spacing: -0.25rem;
     }
     .master-section .container .master-items .texts p {
         font-size: 0.85rem;
         align-self: center;
+        line-height: 1.75rem;
     }
     .master-section .container .master-items .buttons {
         justify-content: left;

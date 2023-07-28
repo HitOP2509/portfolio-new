@@ -5,6 +5,9 @@
     --primary-color: #91b0e3;
     --dark-color: #1a1a1b;
     --dark-transparent-color: rgba(26, 26, 27);
+
+    --font-primary: "Montserrat", sans-serif;
+    --font-secondary: "Fira Code", sans-serif;
 }
 /* CSS RESET */
 *,
@@ -13,7 +16,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
     scroll-behavior: smooth;
 }
 li {

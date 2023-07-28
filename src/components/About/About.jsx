@@ -22,6 +22,45 @@ const About = () => {
                             looking for new and innovative ways to bring ideas
                             to life.
                         </p>
+                        <div className="skills">
+                            <h3>My Skills:</h3>
+                            <div>
+                                <span title="html">
+                                    <img
+                                        src="/images/skills-images/html.svg"
+                                        alt="html"
+                                    />
+                                </span>
+                                <span title="CSS">
+                                    <img
+                                        src="/images/skills-images/css.svg"
+                                        alt="css"
+                                    />
+                                </span>
+                                <span title="JavaScript">
+                                    <img
+                                        src="/images/skills-images/javascript.svg"
+                                        alt="javascript"
+                                    />
+                                </span>
+                                <span title="Tailwind">
+                                    <img
+                                        src="/images/skills-images/tailwind.svg"
+                                        alt="tailwind"
+                                    />
+                                </span>
+                                <span title="React">
+                                    <img
+                                        src="/images/skills-images/react.svg"
+                                        alt="react"
+                                    />
+                                </span>
+                                {/* <span><img
+                                        src="/images/skills-images/html.svg"
+                                        alt="html"
+                                    /></span> */}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

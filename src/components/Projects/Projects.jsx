@@ -1,7 +1,15 @@
 import "./Projects.css";
 
 const Projects = () => {
-    return <div id="projects">Projects</div>;
+    return (
+        <section id="projects" className="projects">
+            <div className="container">
+                <div className="about-title">
+                    <h2 className="text">Projects</h2>
+                </div>
+            </div>
+        </section>
+    );
 };
 
 export default Projects;

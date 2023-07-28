@@ -1,14 +1,24 @@
 .navbar {
-    background-color: var(--dark-color);
+    /* background-color: var(--dark-color);
+     */
+    background: linear-gradient(
+        45deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(15, 15, 22, 1) 75%,
+        rgb(16, 21, 27) 100%
+    );
+
     display: flex;
     justify-content: center;
     height: 4rem;
     padding-inline: 2rem;
     position: sticky;
-    top: -5px;
+    top: 0px;
     left: 0;
     right: 0;
-    font-family: "Fira Code", sans-serif;
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    z-index: 999;
 }
 .navbar .container {
     /* max-width: 1280px;
@@ -31,13 +41,13 @@
 .navbar .navLinks {
     display: flex;
     gap: 2rem;
-    font-weight: 500;
     color: white;
 }
 .navbar .navLinks li {
     transition: 0.25s all ease;
     border-bottom: 2px solid transparent;
     padding-block: 6px;
+    font-size: 1rem;
 }
 .navbar .navLinks li a {
     padding-block: 6px;

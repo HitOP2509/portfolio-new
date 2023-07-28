@@ -1,0 +1,9 @@
+.projects {
+    background: linear-gradient(
+        4deg,
+        rgb(0, 0, 0) 0%,
+        rgba(15, 15, 22, 1) 16%,
+        rgba(38, 43, 51, 1) 100%
+    );
+    font-family: var(--font-secondary);
+}
