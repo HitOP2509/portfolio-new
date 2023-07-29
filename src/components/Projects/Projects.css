@@ -1,9 +1,61 @@
 .projects {
     background: linear-gradient(
-        4deg,
+        172deg,
         rgb(0, 0, 0) 0%,
         rgba(15, 15, 22, 1) 16%,
         rgba(38, 43, 51, 1) 100%
     );
     font-family: var(--font-secondary);
+}
+.projects .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding-block: 5rem;
+    padding-inline: 2rem;
+}
+
+.projects .container .projects-title {
+    align-self: start;
+}
+.projects .container .projects-title .text {
+    color: var(--white-color);
+    font-size: 3.5rem;
+    position: relative;
+    word-spacing: -1rem;
+}
+.projects .container .projects-title .text:hover::before {
+    width: 80%;
+}
+.projects .container .projects-title .text::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 20%;
+    height: 4px;
+    background-color: var(--white-color);
+    transition: 0.25s all ease;
+}
+
+.projects .container .card-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 23%));
+    justify-content: space-evenly;
+    gap: 3rem 1.5rem;
+}
+
+@media only screen and (max-width: 880px) {
+    .projects .container {
+        gap: 2rem;
+        padding: 2rem;
+    }
+    .projects .container .projects-title .text {
+        color: var(--white-color);
+        font-size: 2rem;
+        position: relative;
+        word-spacing: -1rem;
+    }
 }

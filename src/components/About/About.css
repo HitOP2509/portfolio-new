@@ -1,11 +1,14 @@
 .about {
     background: linear-gradient(
-        4deg,
-        rgb(0, 0, 0) 0%,
+        5deg,
+        rgba(0, 0, 0, 1) 0%,
         rgba(15, 15, 22, 1) 16%,
         rgba(38, 43, 51, 1) 100%
     );
     font-family: var(--font-secondary);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .about .container {
     display: flex;
@@ -56,7 +59,11 @@
     object-fit: cover;
     border-radius: 10px;
 }
-
+.about .container .about-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 .about .container .about-texts p {
     font-size: 1.25rem;
     line-height: 2.2rem;
