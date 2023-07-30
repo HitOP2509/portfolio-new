@@ -2,6 +2,7 @@ import "./Projects.css";
 import Card from "../Card/Card";
 
 const Projects = () => {
+    // My portfolio developed using React, CSS, React Router,
     const projects = [
         {
             id: 1,
@@ -13,27 +14,11 @@ const Projects = () => {
         },
         {
             id: 2,
-            imgSrc: "https://i.ytimg.com/vi/47L5LjYlZWA/maxresdefault.jpg",
-            title: "ExploreWorld",
-            desc: "A tour booking Web-App using React, Tailwind CSS, Firebase, React Router, & Redux Toolkit.",
+            imgSrc: "./images/project-images/portfolio-snap.png",
+            title: "Portfolio",
+            desc: "My portfolio developed using React & CSS. Deployed on vercel.",
             gitLink: "https://github.com/HitOP2509/exploreworld-tour-app-react",
-            liveLink: "https://exploreworldreact.web.app/",
-        },
-        {
-            id: 3,
-            imgSrc: "https://appening.xyz/wp-content/uploads/2018/08/webapps-770x516.jpg",
-            title: "ExploreWorld",
-            desc: "A tour booking Web-App using React, Tailwind CSS, Firebase, React Router, & Redux Toolkit.",
-            gitLink: "https://github.com/HitOP2509/exploreworld-tour-app-react",
-            liveLink: "https://exploreworldreact.web.app/",
-        },
-        {
-            id: 4,
-            imgSrc: "./images/project-images/explore-world-min.png",
-            title: "ExploreWorld",
-            desc: "A tour booking Web-App using React, Tailwind CSS, Firebase, React Router, & Redux Toolkit.",
-            gitLink: "https://github.com/HitOP2509/exploreworld-tour-app-react",
-            liveLink: "https://exploreworldreact.web.app/",
+            liveLink: "https://rohitsingh-portfolio.vercel.app/",
         },
     ];
     return (
