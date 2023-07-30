@@ -26,12 +26,17 @@ const HeroSection = () => {
                     </div>
                     <div className="buttons">
                         <Link to="/#contact">
-                            <button>Contact</button>
+                            <button className="contact-btn">Contact</button>
                         </Link>
 
-                        <button>
-                            Resume <DownloadArrow />
-                        </button>
+                        <Link
+                            to="/portfolio/cv-rohit-singh.pdf"
+                            target="_blank"
+                        >
+                            <button className="resume-btn">
+                                Resume <DownloadArrow />
+                            </button>
+                        </Link>
                     </div>
                     {/* <div className="socials">
                         <Link to="https://">
