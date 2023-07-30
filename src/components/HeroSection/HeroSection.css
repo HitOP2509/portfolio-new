@@ -110,6 +110,7 @@
     .master-section .container img {
         max-width: 75%;
         width: 400px;
+        padding-block: 1rem 0;
     }
     .master-section .container .master-items {
         gap: 2rem;
