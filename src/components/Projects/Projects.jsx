@@ -16,7 +16,7 @@ const Projects = () => {
             id: 2,
             imgSrc: "./images/project-images/portfolio-snap.png",
             title: "Portfolio",
-            desc: "My portfolio developed using React & CSS. Deployed on vercel.",
+            desc: "My portfolio developed using React & CSS. Deployed on Firebase.",
             gitLink: "https://github.com/HitOP2509/portfolio-new",
             liveLink: "https://rohitsingh-portfolio.web.app",
         },
