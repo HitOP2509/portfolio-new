@@ -9,10 +9,7 @@ const About = () => {
                 </div>
                 <div className="about-sub">
                     <div className="about-image">
-                        <img
-                            src="https://minimal-nextjs-portfolio-website.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdeveloper-pic-2.6775304f.jpg&w=640&q=75"
-                            alt="about image"
-                        />
+                        <img src="/images/about-me.jpg" alt="about image" />
                     </div>
                     <div className="about-texts">
                         <p>

@@ -23,8 +23,6 @@ const Navbar = () => {
         <header className="navbar">
             <nav className="container">
                 <Link to="/" className="logo">
-                    {/* <span className="fName">R</span>
-                    <span className="lName">ohit</span> */}
                     <Logo />
                 </Link>
                 <ul className={`${showMenuIcon ? "navLinks" : "mobileLinks"}`}>
@@ -36,6 +34,9 @@ const Navbar = () => {
                     </li>
                     <li>
                         <Link to="/#projects">{"// Projects"}</Link>
+                    </li>
+                    <li>
+                        <Link to="/#contact">{"// Contact"}</Link>
                     </li>
                 </ul>
                 <div className={["mobile-nav-icon"]} onClick={handleToggleMenu}>

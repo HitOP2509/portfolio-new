@@ -38,6 +38,22 @@ body {
 /* ACTUAL CSS*/
 body {
     color: inherit;
+    background: linear-gradient(
+        173deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(15, 15, 22, 1) 16%,
+        rgba(38, 43, 51, 1) 100%
+    );
+}
+
+/* .scroller {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+} */
+
+.scroller section {
+    scroll-snap-align: start;
 }
 
 /* GLOBAL CLASSES */

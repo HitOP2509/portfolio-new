@@ -11,10 +11,7 @@ const HeroSection = () => {
     return (
         <section className="master-section">
             <div className="container">
-                <img
-                    src="https://minimal-nextjs-portfolio-website.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdeveloper-pic-1.d43c09fa.png&w=1920&q=75"
-                    className="master-image"
-                />
+                <img src="./images/h-img.png" className="master-image" />
 
                 <div className="master-items">
                     <div className="texts">

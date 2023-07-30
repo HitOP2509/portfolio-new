@@ -1,11 +1,9 @@
 .projects {
-    background: linear-gradient(
-        172deg,
-        rgb(0, 0, 0) 0%,
-        rgba(15, 15, 22, 1) 16%,
-        rgba(38, 43, 51, 1) 100%
-    );
+    min-height: 75vh;
     font-family: var(--font-secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .projects .container {
     display: flex;
@@ -13,7 +11,7 @@
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    padding-block: 5rem;
+    padding-block: 4rem;
     padding-inline: 2rem;
 }
 

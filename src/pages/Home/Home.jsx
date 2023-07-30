@@ -7,12 +7,12 @@ import Projects from "../../components/Projects/Projects";
 
 const Home = () => {
     return (
-        <>
+        <div className="scroller">
             <HeroSection />
             <About />
             <Projects />
             <ContactUs />
-        </>
+        </div>
     );
 };
 
