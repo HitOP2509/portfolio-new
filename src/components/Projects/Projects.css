@@ -40,7 +40,7 @@
 .projects .container .card-container {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(275px, 23%));
+    grid-template-columns: repeat(auto-fit, minmax(275px, 0.25fr));
     justify-content: space-evenly;
     gap: 3rem 1.5rem;
 }
