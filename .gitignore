@@ -24,3 +24,7 @@ firebase.json
 *.njsproj
 *.sln
 *.sw?
+.firebase
+*.firebase
+.github
+*.github
