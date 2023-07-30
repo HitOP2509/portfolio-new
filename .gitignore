@@ -24,5 +24,4 @@ firebase.json
 *.njsproj
 *.sln
 *.sw?
-firebase/*
-.firebase
+*/workflows/*
