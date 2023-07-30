@@ -55,4 +55,7 @@
         position: relative;
         word-spacing: -1rem;
     }
+    .projects .container .card-container {
+        justify-content: center;
+    }
 }
