@@ -16,7 +16,7 @@ const Projects = () => {
             id: 2,
             imgSrc: "./images/project-images/portfolio-snap.png",
             title: "Portfolio",
-            desc: "My portfolio developed using React & CSS. Deployed on Firebase.",
+            desc: "My portfolio developed using React & CSS. Deployed on Firebase & connected with Github for CI/CD.",
             gitLink: "https://github.com/HitOP2509/portfolio-new",
             liveLink: "https://rohitsingh-portfolio.web.app",
         },
