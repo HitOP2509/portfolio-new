@@ -20,6 +20,14 @@ const Projects = () => {
             gitLink: "https://github.com/HitOP2509/portfolio-new",
             liveLink: "https://rohitsingh-portfolio.web.app",
         },
+        {
+            id: 3,
+            imgSrc: "./images/project-images/bankist.png",
+            title: "Bankist",
+            desc: "Built a landing page for an imaginary bank using HTML, CSS, & Vanilla JS while learning JS. Deployed on Firebase.",
+            gitLink: "https://github.com/HitOP2509/Bankist-DOM",
+            liveLink: "https://bankist-js-dom.web.app/",
+        },
     ];
     return (
         <section id="projects" className="projects">
