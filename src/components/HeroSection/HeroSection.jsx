@@ -29,7 +29,7 @@ const HeroSection = () => {
                             <button className="contact-btn">Contact</button>
                         </Link>
 
-                        <Link to="/cv/cv-rohit-singh.pdf" target="_blank">
+                        <Link to="/cv/rohit_resume.pdf" target="_blank">
                             <button className="resume-btn">
                                 Resume <DownloadArrow />
                             </button>
